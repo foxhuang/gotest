@@ -1,0 +1,12 @@
+schema:
+  - gql/schema.graphqls
+  - gql/reader.graphqls
+exec:
+  filename: gql/generated.go
+model:
+  filename: gql/models_gen.go
+resolver:
+  filename: service/resolver.go
+  type: Resolver
+  package: service 
+ 

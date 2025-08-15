@@ -1,0 +1,8 @@
+schema {
+  query:Query
+}
+type Query {
+  hello: String!
+  sayHello(name: String!): String!
+  getReader(id: Int!): Reader
+}
