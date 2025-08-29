@@ -1,0 +1,23 @@
+type News   {
+	ID: Int
+	Title: String
+	Content: String
+	BeginDate: DateTime
+	EndDate: DateTime
+	IsPublic: Boolean
+	Important: Int
+	 
+}
+
+type NewsAttachment  {
+	ID: Int
+	NewsID: Int
+	FileName: String
+	InsertDate: DateTime
+ 
+}
+
+type NewsForm   {
+	Page: Int
+	Size: Int
+}

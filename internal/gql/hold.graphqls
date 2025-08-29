@@ -1,0 +1,5 @@
+type Hold {
+	id: Int!
+	marc_id: Int!
+	keepsite_id: Int!
+}

@@ -1,12 +1,10 @@
 schema:
-  - gql/schema.graphqls
-  - gql/reader.graphqls
+  - internal/gql/*
 exec:
-  filename: gql/generated.go
+  filename: internal/gen/generated.go
 model:
-  filename: gql/models_gen.go
+  filename: internal/gen/models_gen.go
 resolver:
-  filename: service/resolver.go
+  filename: internal/service/resolver.go
   type: Resolver
-  package: service 
- 
+  package: service

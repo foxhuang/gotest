@@ -1,0 +1,11 @@
+scalar DateTime
+schema {
+	query: Query
+}
+type Query {
+	hello: String!
+	sayHello(name: String!): String!
+	getReader(id: Int!): Reader
+	getMuser(id: Int!): Muser
+    getHold(id:Int!): Hold
+}

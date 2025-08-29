@@ -1,0 +1,5 @@
+type Muser {
+	id: Int!
+	name: String!
+	code: String!
+}

@@ -1,5 +1,0 @@
-type Reader {
-  id: Int!
-  name: String!
-  email: String!
-}
